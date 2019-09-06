@@ -1,3 +1,13 @@
+class Carousel {
+  constructor(element) {
+  this.element = element;
+  this.img = this.element.document.querySelector("img")
+  
+  }
+  }
+  
+  let carousel = document.querySelectorAll(".carousel").forEach(el => new Carousel(el));
+
 /* If You've gotten this far, you're on your own! Although we will give you some hints:
     1. You will need to write a function that creates the carousel component, you will find the HTML below.
     2. You will need to grab a reference to all of the images
